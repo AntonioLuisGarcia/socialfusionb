@@ -37,6 +37,12 @@
       "relation": "oneToMany",
       "target": "api::like.like",
       "mappedBy": "post"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "post"
     }
   }
 }
